@@ -22,7 +22,7 @@ if [ "$#" -lt 5 ]; then
 fi
 
 CLUSTER_NAME=$1
-LOCATION=$2
+LOCATION="us-central-a"
 PROJECT_ID=$3
 INTERNAL=$4
 USE_EXISTING_CONTEXT=$5
