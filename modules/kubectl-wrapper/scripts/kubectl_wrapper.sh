@@ -21,8 +21,9 @@ if [ "$#" -lt 5 ]; then
     exit 1
 fi
 
+echo "argument number 2 is: ${2}"
 CLUSTER_NAME=$1
-LOCATION="us-central1-a"
+LOCATION=${2}
 PROJECT_ID=$3
 INTERNAL=$4
 USE_EXISTING_CONTEXT=$5
